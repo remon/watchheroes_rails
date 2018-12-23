@@ -16,8 +16,8 @@ const App = () => {
         <header>
           <Link to="/">Home</Link>
         </header>
-        <Route path="/" exact component={Home} />
         <Route path="/:id" component={HeroItem} />
+        <Route path="/" exact component={Home} />
       </div>
     </BrowserRouter>
   );

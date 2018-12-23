@@ -8,6 +8,10 @@ React Components and Js files you will find in folder
 
 > app/javascript
 
+Main JS file in
+
+> app/javascript/packs/index.js
+
 To run it in your development enviroment
 
 1. Clone this repo
