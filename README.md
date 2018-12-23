@@ -1,24 +1,23 @@
-# README
+## Watch Heroes
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple **Ruby On Rails** and **React** for Watch Heroes List .
 
-Things you may want to cover:
+a working demo on **Heroku** on this **[Link](https://watchheroes.herokuapp.com/)**
 
-* Ruby version
+React Components and Js files you will find in folder
 
-* System dependencies
+> app/javascript
 
-* Configuration
+To run it in your development enviroment
 
-* Database creation
+1. Clone this repo .
 
-* Database initialization
+2- run `bundle install` to install all required gems .
 
-* How to run the test suite
+3. Create a free account on **[mlab.com](https://mlab.com)**
 
-* Services (job queues, cache servers, search engines, etc.)
+4- Set your mongoDB enviroment variable as `MONGO_URL`
 
-* Deployment instructions
+5-run `rails db:seed` to populate the database on mlab .
 
-* ...
+6- run `rails s` then go to `localhost:3000` , you will find your app there .
